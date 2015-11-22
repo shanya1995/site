@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">  <!-- Меню -->
+    <meta charset="UTF-8">
+    <title>Лабораторная работа №2</title>
+    <style>
+        .column {
+            -webkit-column-width: 20px;
+            -webkit-column-count: 3;
+            -webkit-column-gap: 15px;
+            word-break: break-all;
+            word-wrap: normal;
+            -webkit-hyphens: auto;
+        }
+    .text1{
+        color:green;
+        font-style: oblique ;
+        font-family: Arial;
+    }
+    .text2{
+        color:red;
+        font-style: italic;
+        font-family: Geneva;
+    }
+    .text3 {
+        color:black;
+        font-style:normal;
+        font-family: Segoe Script;
+        text-shadow: 4px 2px 1px blue;
+
+    }
+    .im1{
+        border: 6px solid #00ffff;
+        opacity: 0.2;
+    }
+    .img2{
+        border: 10px solid #ff0000;
+        opacity: 0.6;
+    }
+    .img3{
+        border: 16px solid #ffff00;
+        opacity:0.9;
+    }
+    .parrot1 {
+        text-align:left;
+        position: relative;
+        z-index: 1;
+        top: 20px;
+        left: 40px;
+        -webkit-transition: all 2s ease-in-out;
+        cursor: pointer;
+    *}
+    .parrot1:hover{
+            -webkit-transform: translate(-42px,0);
+    }
+    .parrot2 {
+        text-align:center;
+        position: relative;
+        z-index: 2;
+        top: -30px;
+        right: -10px;
+        -webkit-transition: all 1s 0.1s ease-in;
+        cursor: pointer;
+     }
+        .parrot2:hover{
+            -webkit-transform: translate(-200px,0);
+        }
+    .parrot3 {
+       text-align:right;
+        position: relative;
+        z-index: 3;
+        top: -80px;
+        right: 20px;
+        -webkit-transition: all 2s ease-in-out;
+        cursor: pointer;
+    }
+        .parrot3:hover{
+            -webkit-transform: translate(-350px,0);
+        }
+    </style>
+</head>
+<body >
+<table border="1" cellspacing="0" align="center" >
+        <tr>
+       <th width="600" height="570" class="column"  style="background: url(im2.jpg)  no-repeat; background-size: 602px 576px; background-origin: padding-box;">
+           <div class="text1"><font size="4">Весна - это то вре&shy;мя года, которого все ждут, устав от зимы.Весну часто называют долгожданной.
+               Первые признаки весны, бывает, проявляются еще зимой, в феврале:чуть посильнее посветит солнышко-и начинают таять сосульки,
+               звенит веселая капель, напоминая о приближении весны.</font></div>
+           <div class="text2"><font size="2">Вот и пришла весна. Солнце на&shy;чинает появляться на небе все чаще,небо делается более ярким, густо-синим, вовсю тает снег
+               и бегут ручьи.
+               Земля еще холодная, слишком сырая и голая,а через остатки снега пробиваются самые первые цветы,которые так и называют: подснежники.
+           </font></div>
+           <div class="text3"><font size="1">В лесу начинается оживление:просыпаются от зимней спячки звери,возвращаются после зимовки птицы.
+               Все заняты обустройством уютных гнездышек и норок,все готовятся к выведению потомства,для этого нужны надежные дома.
+               Наступление весны - это пробуждение природы.Всюду чувствуется жизнь.</font></div>
+       </th>
+       <th width="600" height="570" style="background:  url(im3.jpg) no-repeat;  background-size: 600px 574px" >
+           <div class="parrot1">
+       <img src="parrot1.jpg" alt="1 картинка" width="200px" height="165px" class="im1"  ></div>
+           <div class="parrot2">
+       <img src="parrot2.jpg" alt="2 картинка" width="200px" height="165px" class="img2" ></div>
+           <div class="parrot3">
+       <img src="parrot3.jpg" alt="3 картинка" width="200px" height="165px" class="img3"></div>
+       </th>
+    </tr>
+</table>
+</body>
+</html>
